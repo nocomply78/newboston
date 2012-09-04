@@ -7,6 +7,7 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:debuggable="true"
@@ -76,6 +77,10 @@
         </activity>
         <activity
             android:name=".GFXSurface"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SoundStuff"
             android:label="@string/app_name" >
         </activity>
         <activity
